@@ -82,7 +82,7 @@ Este é um **site institucional fictício** de uma ONG dedicada ao resgate, cuid
 ### Online
 O site da ONG Amor de 4 Patas pode ser acessado por qualquer pessoa através do link público do GitHub Pages:
 
-[https://seu-usuario.github.io/nome-do-repositorio/](https://seu-usuario.github.io/nome-do-repositorio/)
+https://laisedts245-lab.github.io/ONG-amor-de-4-patas/
 
 Clique no link ou copie e cole em qualquer navegador para ver o site em diferentes dispositivos.
 
