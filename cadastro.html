@@ -21,24 +21,21 @@
     <!-- Conteúdo principal -->
     <main>
         <!-- Seção de imagem responsiva -->
-        <section>
-            <h2>Imagem de Voluntariado</h2>
-            <picture>
-                <!-- Celular pequeno -->
-                <source media="(max-width: 480px)" srcset="imagens/cadastro/cadastro-cel.jpg">
 
-                <!-- Celular grande -->
-                <source media="(max-width: 768px)" srcset="imagens/cadastro/cadastro-celgr.jpg">
+        <picture>
+            <!-- Celular pequeno -->
+            <source media="(max-width: 480px)" srcset="imagens/cadastro/cadastro-cel.jpg">
 
-                <!-- Tablet -->
-                <source media="(max-width: 1024px)" srcset="imagens/cadastro/cadastro-tablet.jpg">
+            <!-- Celular grande -->
+            <source media="(max-width: 768px)" srcset="imagens/cadastro/cadastro-celgr.jpg">
 
-                <!-- Desktop -->
-                <img src="imagens/cadastro/cadastro-desktop.jpg" 
-                     alt="Voluntários cuidando dos animais" 
-                     style="width:100%; max-width:500px; height:auto;">
-            </picture>
-        </section>
+            <!-- Tablet -->
+            <source media="(max-width: 1024px)" srcset="imagens/cadastro/cadastro-tablet.jpg">
+
+            <!-- Desktop -->
+            <img src="imagens/cadastro/cadastro-desktop.jpg" alt="Voluntários cuidando dos animais"
+                style="width:100%; max-width:500px; height:auto;">
+        </picture>
 
         <!-- Seção de introdução ao formulário -->
         <section>
@@ -66,10 +63,12 @@
                     <input type="email" id="email" name="email" placeholder="seu@email.com" required><br><br>
 
                     <label for="telefone">Telefone</label><br>
-                    <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\)\s?\d{4,5}-\d{4}" placeholder="(00) 00000-0000" required><br><br>
+                    <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\)\s?\d{4,5}-\d{4}"
+                        placeholder="(00) 00000-0000" required><br><br>
 
                     <label for="cpf">CPF</label><br>
-                    <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required><br><br>
+                    <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                        placeholder="000.000.000-00" required><br><br>
 
                     <label for="nascimento">Data de Nascimento</label><br>
                     <input type="date" id="nascimento" name="nascimento" required><br><br>
@@ -83,7 +82,8 @@
                     <input type="text" id="endereco" name="endereco" required><br><br>
 
                     <label for="cep">CEP:</label><br>
-                    <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="00000-000" required><br><br>
+                    <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="00000-000"
+                        required><br><br>
 
                     <label for="cidade">Cidade:</label><br>
                     <input type="text" id="cidade" name="cidade" required><br><br>
@@ -151,7 +151,8 @@
         <section>
             <h2>Agradecimento</h2>
             <p>
-                Assim que recebermos seus dados, entraremos em contato por e-mail ou telefone para confirmar seu cadastro
+                Assim que recebermos seus dados, entraremos em contato por e-mail ou telefone para confirmar seu
+                cadastro
                 e explicar os próximos passos.
             </p>
         </section>
@@ -168,4 +169,3 @@
 </body>
 
 </html>
-
