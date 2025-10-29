@@ -86,13 +86,6 @@ https://laisedts245-lab.github.io/ONG-amor-de-4-patas/
 
 Clique no link ou copie e cole em qualquer navegador para ver o site em diferentes dispositivos.
 
-### Local
-Caso queira abrir o projeto no computador sem depender do link online:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Abra qualquer arquivo `.html` no navegador clicando duas vezes ou utilizando **"Abrir com > Navegador"** no VS Code.
-
 ---
 
 ## 🔧 Próximos Passos
@@ -113,3 +106,4 @@ O site já possui a estrutura de conteúdo organizada. Futuramente, serão aplic
 
 **Laíse Dantas**  
 Projeto acadêmico fictício da ONG Amor de 4 Patas
+
