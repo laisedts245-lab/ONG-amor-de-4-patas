@@ -1,115 +1,144 @@
-# 🐾 Projeto ONG Amor de 4 Patas
+🐾 Projeto ONG Amor de 4 Patas
+📌 Descrição do Projeto
 
-## 📌 Descrição do Projeto
-Este é um **site institucional fictício** de uma ONG dedicada ao resgate, cuidado e proteção de animais em situação de abandono ou maus-tratos. O site contém informações sobre a ONG, seus projetos, formas de ajudar e um formulário para cadastro de voluntários.
+Este é um site institucional fictício de uma ONG dedicada ao resgate, cuidado e proteção de animais em situação de abandono ou maus-tratos. O site contém informações sobre a ONG, seus projetos, formas de ajudar e um formulário para cadastro de voluntários.
 
----
+O projeto utiliza HTML semântico e CSS responsivo, garantindo boa visualização em dispositivos móveis, tablets e desktops.
 
-## 🗂️ Estrutura do Projeto
+🗂️ Estrutura do Projeto
+1. Home (index.html)
 
-### 1. Home (`home.html`)
-- **Seções principais:**
-  - Cabeçalho (`<header>`) com título e menu de navegação.
-  - Imagem principal responsiva (`<picture>`).
-  - Quem Somos: descrição da ONG.
-  - Missão, Visão e Valores (cada item em `<article>`).
-  - Como Ajudar: lista de formas de contribuição.
-  - Contatos: telefone, WhatsApp, e-mail e endereço.
-- **Rodapé (`<footer>`)** com direitos autorais.
+Seções principais:
 
-### 2. Projetos (`projetos.html`)
-- **Seções principais:**
-  - Cabeçalho com menu de navegação.
-  - Imagem responsiva (`<picture>`).
-  - Projetos (cada projeto em `<article>`):
-    - Resgate
-    - Atendimento Veterinário
-    - Castração
-    - Lar Temporário
-    - Feiras de Adoção
-    - Educação e Conscientização
-  - Depoimentos de adotantes, voluntários e veterinários.
-  - Mensagem de incentivo à colaboração.
-- Rodapé idêntico ao da Home.
+Cabeçalho (<header>) com título e menu de navegação responsivo.
 
-### 3. Cadastro (`cadastro.html`)
-- **Seções principais:**
-  - Cabeçalho com menu de navegação.
-  - Imagem responsiva.
-  - Introdução ao formulário.
-  - Formulário de cadastro de voluntários:
-    - **Dados Pessoais:** nome, e-mail, telefone, CPF, data de nascimento.
-    - **Endereço:** endereço, CEP, cidade, estado.
-    - **Área de Apoio:** opções pré-definidas + campo “Outro”.
-    - Todos os campos possuem `required` e validação de formato quando necessário.
-  - Agradecimento após o envio.
-- Rodapé idêntico às demais páginas.
+Imagem principal (<img>), dimensionada e adaptada para diferentes telas.
 
----
+Quem Somos: descrição da ONG.
 
-## 🖼️ Imagens Responsivas
-- Todas as imagens usam `<picture>` com diferentes `srcset` para adaptar a visualização:
-  - Celular pequeno
-  - Celular grande
-  - Tablet
-  - Desktop
-- Imagens em desktop com largura máxima de **500px**.
+Missão, Visão e Valores (cada item em <article>).
 
----
+Como Ajudar: cards com diferentes formas de contribuição.
 
-## 📝 Formulário de Cadastro
-- Envio de dados feito por **Formspree**.
-- Método `POST`.
-- Campos validados com `required` e `pattern` (telefone, CPF, CEP).
+Contatos: telefone, WhatsApp, e-mail e endereço.
 
----
+Rodapé (<footer>) com créditos e direitos autorais.
 
-## 🔗 Navegação
-- Menu consistente em todas as páginas:
-  - Home
-  - Projetos
-  - Cadastro
+2. Projetos (projetos.html)
 
----
+Seções principais:
 
-## 📥 Rodapé
-- Créditos do projeto acadêmico e direitos reservados.
+Cabeçalho com menu de navegação.
 
----
+Imagem de destaque.
 
-## 🌐 Como Visualizar o Site
+Projetos (cada projeto em <article>):
 
-### Online
-O site da ONG Amor de 4 Patas pode ser acessado por qualquer pessoa através do link público do GitHub Pages:
+Resgate
+
+Atendimento Veterinário
+
+Castração
+
+Lar Temporário
+
+Feiras de Adoção
+
+Educação e Conscientização
+
+Depoimentos de adotantes, voluntários e veterinários em cards com emojis.
+
+Mensagem de incentivo à colaboração.
+
+Rodapé idêntico ao da Home.
+
+3. Cadastro (cadastro.html)
+
+Seções principais:
+
+Cabeçalho com menu de navegação.
+
+Imagem de destaque.
+
+Introdução ao formulário.
+
+Formulário de cadastro de voluntários:
+
+Dados Pessoais: nome, e-mail, telefone, CPF, data de nascimento.
+
+Endereço: endereço, CEP, cidade, estado.
+
+Área de Apoio: opções pré-definidas + campo “Outro”.
+
+Campos obrigatórios (required) e validação de formato (telefone, CPF, CEP).
+
+Mensagem de agradecimento após o envio.
+
+Rodapé idêntico às demais páginas.
+
+🖼️ Responsividade
+
+O site utiliza CSS com media queries para diferentes breakpoints:
+
+Desktop (acima de 1024px)
+
+Tablet (entre 768px e 1024px)
+
+Celular grande (até 480px)
+
+Celular pequeno (até 360px)
+
+Imagens e cards ajustam tamanho, espaçamento e fonte para melhor visualização.
+
+Layout em grid para projetos e cards de como ajudar.
+
+📝 Formulário de Cadastro
+
+Envio de dados feito via Formspree.
+
+Método POST.
+
+Campos validados com required e pattern para garantir consistência dos dados.
+
+Inclui suporte para voluntariado em áreas específicas ou descrição personalizada.
+
+🔗 Navegação
+
+Menu consistente em todas as páginas:
+
+Home
+
+Projetos
+
+Cadastro
+
+Menu responsivo com hamburger menu em telas menores.
+
+📥 Rodapé
+
+Créditos do projeto acadêmico e direitos reservados.
+
+Informações uniformes em todas as páginas.
+
+🌐 Como Visualizar o Site
+
+O site da ONG Amor de 4 Patas pode ser acessado pelo GitHub Pages:
 
 https://laisedts245-lab.github.io/ONG-amor-de-4-patas/
 
-Clique no link ou copie e cole em qualquer navegador para ver o site em diferentes dispositivos.
+🔧 Próximo Passo
 
-### Local
-Caso queira abrir o projeto no computador sem depender do link online:
+Implementar funcionalidades adicionais com JavaScript (opcional).
 
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Abra qualquer arquivo `.html` no navegador clicando duas vezes ou utilizando **"Abrir com > Navegador"** no VS Code.
+🛠️ Observações
 
----
+HTML semântico e CSS completo aplicado.
 
-## 🔧 Próximos Passos
+Layout responsivo e adaptável para diferentes tamanhos de tela.
 
-O site já possui a estrutura de conteúdo organizada. Futuramente, serão aplicadas melhorias na apresentação visual com estilos mais elaborados e adicionadas funcionalidades interativas usando scripts para tornar a navegação mais dinâmica e envolvente.
+Comentários explicativos no código para melhor compreensão.
 
----
+👩‍💻 Autor
 
-## 🛠️ Observações
-
-- HTML puro, sem CSS externo além de ajustes mínimos para imagens.
-- Estrutura semanticamente organizada (`header`, `main`, `section`, `article`, `footer`).
-- Comentários explicativos incluídos em todo o HTML para facilitar a compreensão.
-
----
-
-## 👩‍💻 Autor
-
-**Laíse Dantas**  
+Laíse Dantas
 Projeto acadêmico fictício da ONG Amor de 4 Patas

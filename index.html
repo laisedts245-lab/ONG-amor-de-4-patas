@@ -4,99 +4,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG Amor de Patas</title>
+    <title>ONG Amor de 4 Patas</title>
+    <link rel="shortcut icon" href="imagens/logo-favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="page">
     <!-- Cabeçalho -->
-    <header>
-        <h1>Amor de 4 Patas</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="cadastro.html">Cadastro</a>
+    <header class="header">
+        <div class="header__logo">
+            <img src="imagens/logo-favicon/Sem título-1-01.png" alt="Ícone de cachorro">
+        </div>
+
+        <!-- Checkbox hack -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="header__nav">
+            <a href="index.html" class="btn-nav ativo">Home</a>
+            <a href="projetos.html" class="btn-nav">Projetos</a>
+            <a href="cadastro.html" class="btn-nav">Cadastro</a>
         </nav>
     </header>
 
     <!-- Conteúdo principal -->
     <main>
-
-        <!-- Imagem principal -->
-
-        <picture>
-            <!-- Celular pequeno -->
-            <source media="(max-width:370px)" srcset="./imagens/home/imagem-home-cel.jpg">
-            <!-- Celular grande -->
-            <source media="(max-width:410px)" srcset="./imagens/home/imagem-home-celgran.jpg">
-            <!-- Tablet -->
-            <source media="(max-width:480px)" srcset="./imagens/home/imagem-home-tablet.jpg">
-            <!-- Desktop -->
-            <img src="./imagens/home/imagem-home-desk.jpg" alt="Cachorro e gato deitados lado a lado"
-                style="width:100%; max-width:500px; height:auto;">
-        </picture>
+        <h1 class="header-title">Amor de 4 Patas</h1>
+        <img src="imagens/home/imagem-home-desk.png" alt="Imagem principal" class="home-img">
 
         <!-- Seção Quem Somos -->
-        <section>
-            <h2>Quem Somos</h2>
-            <p>O Amor de 4 Patas é uma ONG dedicada ao resgate, cuidado e proteção de animais em situação de abandono ou
-                maus-tratos. Atuamos no resgate, atendimento veterinário, castração e encaminhamento para adoção
-                responsável.<br>
-                Também promovemos campanhas de conscientização sobre posse responsável e contamos com voluntários e
-                doadores para transformar a vida de cada animal resgatado. Nosso objetivo é construir uma sociedade mais
-                empática e solidária, oferecendo a cada animal a chance de um lar seguro e cheio de amor.</p>
-        </section>
+        <div class="principal">
+            <section class="quem-somos">
+                <h2>Quem Somos</h2>
+                <p>
+                    O Amor de 4 Patas é uma ONG dedicada ao resgate, cuidado e proteção de animais em situação de abandono ou maus-tratos.
+                    Atuamos no resgate, atendimento veterinário, castração e encaminhamento para adoção responsável.<br>
+                    Também promovemos campanhas de conscientização sobre posse responsável e contamos com voluntários e doadores para transformar a vida de cada animal resgatado.
+                    Nosso objetivo é construir uma sociedade mais empática e solidária, oferecendo a cada animal a chance de um lar seguro e cheio de amor.
+                </p>
+            </section>
 
-        <!-- Seção Missão, Visão e Valores -->
-        <section>
+            <!-- Seção Missão, Visão e Valores -->
             <h2>Missão, Visão e Valores</h2>
-            <article>
-                <h3>Missão</h3>
-                <p>Proteger e promover o bem-estar de animais em situação de vulnerabilidade, oferecendo resgate,
-                    cuidado, tratamento e encaminhamento para adoção responsável.</p>
-            </article>
-            <article>
-                <h3>Visão</h3>
-                <p>Ser referência na proteção animal, contribuindo para uma sociedade mais consciente, empática e
-                    comprometida com a vida de todos os animais.</p>
-            </article>
-            <article>
-                <h3>Valores</h3>
-                <ul>
-                    <li>Respeito e cuidado com todos os seres vivos.</li>
-                    <li>Transparência e ética em nossas ações.</li>
-                    <li>Empatia e solidariedade.</li>
-                    <li>Educação e conscientização sobre adoção responsável.</li>
-                </ul>
-            </article>
-        </section>
+            <section class="mvv">
+                <article class="box-missao">
+                    <h3>Missão</h3>
+                    <p>Proteger e promover o bem-estar de animais em situação de vulnerabilidade, oferecendo resgate, cuidado, tratamento e encaminhamento para adoção responsável.</p>
+                </article>
+                <article class="box-visao">
+                    <h3>Visão</h3>
+                    <p>Ser referência na proteção animal, contribuindo para uma sociedade mais consciente, empática e comprometida com a vida de todos os animais.</p>
+                </article>
+                <article class="box-valores">
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Respeito e cuidado com todos os seres vivos.</li>
+                        <li>Transparência e ética em nossas ações.</li>
+                        <li>Empatia e solidariedade.</li>
+                        <li>Educação e conscientização sobre adoção responsável.</li>
+                    </ul>
+                </article>
+            </section>
 
-        <!-- Seção Como Ajudar -->
-        <section>
-            <h2>Como Ajudar?</h2>
-            <ul>
-                <li>Doações financeiras</li>
-                <li>Doações de rações e materiais</li>
-                <li>Trabalho voluntário</li>
-                <li>Adoção</li>
-                <li>Lar Temporário</li>
-            </ul>
-            <a href="cadastro.html">Clique aqui para se cadastrar</a>
-        </section>
+            <!-- Seção Como Ajudar -->
+            <section class="como-ajudar">
+                <h2>Como Ajudar?</h2>
 
-        <!-- Seção Contatos -->
-        <section>
-            <h2>Contatos</h2>
-            <p>Queremos ouvir você! Seja para tirar dúvidas, enviar sugestões ou conhecer melhor o trabalho do Amor de 4
-                Patas, estamos à disposição para ajudar.</p>
-            <p>Você pode falar conosco pelos seguintes canais:</p>
-            <ul>
-                <li>Telefone: (00) 1234-5678</li>
-                <li>WhatsApp: (00) 91234-5678</li>
-                <li>E-mail: contato@amorde4patas.org</li>
-            </ul>
-            <p>Nosso endereço: Rua dos Animais Felizes, 123 — Cidade, Estado.</p>
-        </section>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="imagens/como-ajudar/doacao.jpg" alt="Doações financeiras">
+                        <p>Doações financeiras</p>
+                    </div>
 
+                    <div class="card">
+                        <img src="imagens/como-ajudar/racao.jpg" alt="Doações de rações e materiais">
+                        <p>Doações de rações e materiais</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/como-ajudar/voluntario.jpg" alt="Trabalho voluntário">
+                        <p>Trabalho voluntário</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/como-ajudar/adocao.jpg" alt="Adoção">
+                        <p>Adoção</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/como-ajudar/lar-temporario.jpg" alt="Lar temporário">
+                        <p>Lar temporário</p>
+                    </div>
+                </div>
+
+                <a class="cta-cadastro" href="cadastro.html">Clique aqui para se cadastrar</a>
+            </section>
+
+            <!-- Seção Contatos -->
+            <section class="contatos">
+                <h2>Contatos</h2>
+                <p class="contatos-intro">
+                    Queremos ouvir você! Seja para tirar dúvidas, enviar sugestões ou conhecer melhor o trabalho do Amor de 4 Patas, estamos à disposição para ajudar.
+                </p>
+
+                <div class="contatos-container">
+                    <div class="contato-card">
+                        <h3>Fale Conosco</h3>
+                        <p>Entre em contato com nossa equipe para dúvidas e informações gerais.</p>
+                        <p>E-mail: <strong>contato@amorde4patas.org</strong></p>
+                    </div>
+
+                    <div class="contato-card">
+                        <h3>Telefones</h3>
+                        <ul>
+                            <li>Telefone: (00) 1234-5678</li>
+                            <li>WhatsApp: (00) 91234-5678</li>
+                        </ul>
+                    </div>
+
+                    <div class="contato-card">
+                        <h3>Endereço</h3>
+                        <p>Rua dos Animais Felizes, 123<br>Cidade — Estado</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <!-- Rodapé -->
@@ -104,7 +143,6 @@
         <p>Trabalho acadêmico desenvolvido por Laíse Dantas — Projeto fictício da ONG Amor de 4 Patas.<br>
             Todos os direitos reservados © 2025.</p>
     </footer>
-
 </body>
 
 </html>
