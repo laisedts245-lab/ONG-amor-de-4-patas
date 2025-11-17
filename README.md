@@ -42,7 +42,7 @@ O layout se adapta a diversos tamanhos de tela com os seguintes breakpoints:
 
 1200px+ – telas grandes
 
-Todas as seções foram ajustadas para garantir boa experiência em qualquer dispositivo.
+Tudo foi ajustado para garantir boa experiência em qualquer dispositivo.
 
 🖼️ 🔤 Tipografia e identidade
 
