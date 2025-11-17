@@ -142,3 +142,16 @@ Comentários explicativos no código para melhor compreensão.
 
 Laíse Dantas
 Projeto acadêmico fictício da ONG Amor de 4 Patas
+
+## 🛠️ Observações
+
+- HTML puro, sem CSS externo além de ajustes mínimos para imagens.
+- Estrutura semanticamente organizada (`header`, `main`, `section`, `article`, `footer`).
+- Comentários explicativos incluídos em todo o HTML para facilitar a compreensão.
+
+
+## 👩‍💻 Autor
+
+**Laíse Dantas**  
+Projeto acadêmico fictício da ONG Amor de 4 Patas
+
