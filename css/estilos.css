@@ -549,20 +549,20 @@ h2 {
     font-size: var(--fs-xl);
     color: var(--color-neutral-1);
     text-align: center;
-    margin: 3rem 0 2rem; /* topo maior para afastar dos projetos, bottom opcional */
+    margin: 3rem 0 2rem;
 }
 
 .depoimentos {
     padding: 2rem 1rem;
     text-align: center;
-    margin-top: 60px; /* espaçamento maior em relação aos projetos */
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.8rem;
 }
 
-/* CARD */
+/* CARD (details vira o card inteiro) */
 .card-depoimento {
     width: 260px;
     background: var(--color-neutral-1);
@@ -573,6 +573,14 @@ h2 {
     cursor: pointer;
     transition: transform .3s ease, background-color .3s ease;
     position: relative;
+}
+
+/* Remove seta padrão do <details> */
+.card-depoimento summary {
+    list-style: none;
+}
+.card-depoimento summary::-webkit-details-marker {
+    display: none;
 }
 
 /* Emoji */
@@ -588,28 +596,26 @@ h2 {
     color: var(--color-primary-1);
 }
 
-/* Texto completo escondido */
+/* Texto completo */
 .texto-completo {
-    max-height: 0;
-    overflow: hidden;
     margin-top: 0.7rem;
     font-size: 0.9rem;
     line-height: 1.4;
-    transition: max-height .3s ease;
+    padding-top: .5rem;
 }
 
-/* Hover / Focus */
-.card-depoimento:focus,
+/* Hover */
 .card-depoimento:hover {
     transform: translateY(-4px);
     background-color: var(--color-neutral-2);
-    color: var(--color-secondary-1);
-    font-weight: 600;
 }
 
-.card-depoimento:hover .texto-completo {
-    max-height: 400px;
+/* Estado ABERTO (quando clica no celular) */
+.card-depoimento[open] {
+    background-color: var(--color-neutral-2);
+    transform: translateY(-4px);
 }
+
 
 .cta-contribua {
     max-width: 1100px;
