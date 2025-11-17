@@ -1,124 +1,56 @@
-🐾 Projeto ONG Amor de 4 Patas
-📌 Descrição do Projeto
+🐾 ONG Amor de 4 Patas
 
-Este é um site institucional fictício de uma ONG dedicada ao resgate, cuidado e proteção de animais em situação de abandono ou maus-tratos. O site contém informações sobre a ONG, seus projetos, formas de ajudar e um formulário para cadastro de voluntários.
+Site institucional desenvolvido para avaliação acadêmica.
+Projeto feito com foco em responsividade, acessibilidade e boas práticas de HTML e CSS.
 
-O projeto utiliza HTML semântico e CSS responsivo, garantindo boa visualização em dispositivos móveis, tablets e desktops.
+✨ 📌 Sobre o Projeto
 
-🗂️ Estrutura do Projeto
-1. Home (index.html)
+Este projeto representa o site oficial fictício da ONG Amor de 4 Patas, que atua no resgate, adoção e cuidado de animais abandonados.
+O objetivo foi criar um site moderno, responsivo e funcional, com visual amigável e foco na navegação simples.
 
-Seções principais:
+🧩 🔧 Tecnologias utilizadas
 
-Cabeçalho (<header>) com título e menu de navegação responsivo.
+HTML5
 
-Imagem principal (<img>), dimensionada e adaptada para diferentes telas.
+CSS3 (responsivo com media queries)
 
-Quem Somos: descrição da ONG.
+Google Fonts e fonte local Baloo
 
-Missão, Visão e Valores (cada item em <article>).
+Design Mobile First
 
-Como Ajudar: cards com diferentes formas de contribuição.
+Git & GitHub
 
-Contatos: telefone, WhatsApp, e-mail e endereço.
+🎨 🖥️ Páginas do projeto
 
-Rodapé (<footer>) com créditos e direitos autorais.
+✔️ Home – apresentação da ONG
+✔️ Projetos – ações realizadas, como resgate, doação e voluntariado
+✔️ Como ajudar – formas de apoio
+✔️ Cadastro – página com formulário estilizado
+✔️ Contato – informações gerais
 
-2. Projetos (projetos.html)
+📱 ⚙️ Responsividade
 
-Seções principais:
+O layout se adapta a diversos tamanhos de tela com os seguintes breakpoints:
 
-Cabeçalho com menu de navegação.
+320px – mobile extra pequeno
 
-Imagem de destaque.
+480px – mobile padrão
 
-Projetos (cada projeto em <article>):
+768px – tablet
 
-Resgate
+1024px – desktop
 
-Atendimento Veterinário
+1200px+ – telas grandes
 
-Castração
+Todas as seções foram ajustadas para garantir boa experiência em qualquer dispositivo.
 
-Lar Temporário
+🖼️ 🔤 Tipografia e identidade
 
-Feiras de Adoção
+Fonte principal: Baloo (local)
 
-Educação e Conscientização
+Fonte secundária: Open Sans / outra que você escolheu
 
-Depoimentos de adotantes, voluntários e veterinários em cards com emojis.
-
-Mensagem de incentivo à colaboração.
-
-Rodapé idêntico ao da Home.
-
-3. Cadastro (cadastro.html)
-
-Seções principais:
-
-Cabeçalho com menu de navegação.
-
-Imagem de destaque.
-
-Introdução ao formulário.
-
-Formulário de cadastro de voluntários:
-
-Dados Pessoais: nome, e-mail, telefone, CPF, data de nascimento.
-
-Endereço: endereço, CEP, cidade, estado.
-
-Área de Apoio: opções pré-definidas + campo “Outro”.
-
-Campos obrigatórios (required) e validação de formato (telefone, CPF, CEP).
-
-Mensagem de agradecimento após o envio.
-
-Rodapé idêntico às demais páginas.
-
-🖼️ Responsividade
-
-O site utiliza CSS com media queries para diferentes breakpoints:
-
-Desktop (acima de 1024px)
-
-Tablet (entre 768px e 1024px)
-
-Celular grande (até 480px)
-
-Celular pequeno (até 360px)
-
-Imagens e cards ajustam tamanho, espaçamento e fonte para melhor visualização.
-
-Layout em grid para projetos e cards de como ajudar.
-
-📝 Formulário de Cadastro
-
-Envio de dados feito via Formspree.
-
-Método POST.
-
-Campos validados com required e pattern para garantir consistência dos dados.
-
-Inclui suporte para voluntariado em áreas específicas ou descrição personalizada.
-
-🔗 Navegação
-
-Menu consistente em todas as páginas:
-
-Home
-
-Projetos
-
-Cadastro
-
-Menu responsivo com hamburger menu em telas menores.
-
-📥 Rodapé
-
-Créditos do projeto acadêmico e direitos reservados.
-
-Informações uniformes em todas as páginas.
+Cores neutras e tons acolhedores para transmitir empatia e cuidado com os animais.
 
 🌐 Como Visualizar o Site
 
