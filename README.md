@@ -48,7 +48,7 @@ Todas as seções foram ajustadas para garantir boa experiência em qualquer dis
 
 Fonte principal: Baloo (local)
 
-Fonte secundária: Open Sans / outra que você escolheu
+Fonte secundária: Montserrat
 
 Cores neutras e tons acolhedores para transmitir empatia e cuidado com os animais.
 
